@@ -1,0 +1,119 @@
+.wrapper{
+    width: 1460px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    border: 1px solid transparent;
+   padding: 8px 30px;
+   border-radius: 50px;
+   outline: none;
+   cursor: pointer;
+   font-size: 18px;
+   
+}
+.btn-primary{
+    color: var(--dark);
+    background: var(--pure);
+    transition: all .3s ease-in-out;
+}
+.btn-primary:hover{
+   background: transparent;
+   color: var(--pure);
+   border-color: var(--pure);
+}
+.btn-secondary{
+  color: var(--pur);
+  background: transparent;
+  transition: all .3s ease-in-out;
+  border: 1px solid var(--pure);
+  margin: 30px 0;
+  font-weight: 600;
+  
+}
+.btn-secondary:hover{
+    background: var(--pure);
+    color: var(--dark);
+}
+.card-wrapper{
+    width: 350px;
+}
+.card{
+    margin-bottom: 50px;
+}
+.capacity{
+    display: flex;
+    font-weight: 100;
+    margin-top: -48px;
+}
+.capacity h1{
+    margin-top: -10px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.payload .h2{
+  margin-top: 80px;
+}
+h2.info{
+    font-size: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    font-weight: 500;
+    line-height: 1.6;
+}
+h2.info:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    display: block;
+    height: 2px;
+    background: var(--pure);
+    width: 50px;
+}
+.discription h5{
+    font-size: 12px;
+    line-height: 1.7;
+    font-weight: 400;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.discription h5 a{
+    text-decoration: none;
+    color: var(--pure);
+    
+}
+.card-1 h1{
+    position: relative;
+}
+.card-1 h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 70px;
+    background: var(--pure);
+    bottom: -3px;
+}
+.btn-teritory{
+    color: var(--pur);
+    background: transparent;
+    transition: all .3s ease-in-out;
+    border: 1px solid var(--pure);
+    margin: 30px 0;
+    font-weight: 600;
+}
+.btn-1{
+    border: 1px solid var(--pure);
+    padding: 8px 30px;
+    display: flex;
+    justify-content: center;
+    transition: .3s ease-in-out;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-teritory:hover{
+    background-color: var(--pure);
+    color: var(--dark);
+}

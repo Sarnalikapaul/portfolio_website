@@ -1,0 +1,244 @@
+/* Basic STRUCTURE*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+body{
+    background: #000;
+    height: 2000px;
+}
+
+/* NavBar Styling*/
+.r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #fff;
+}
+nav .navbar-nav li a{
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 18px;
+    letter-spacing: .05rem;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+nav .navbar-nav li{
+    margin-right: 15px;
+}
+.stickyadd{
+    background-color: #fff !important;
+    padding: 10px 0;
+    box-shadow: 0 1px 8px 3px rgba(0,0,0,0.05);
+    transition: .5s ease-in-out all;
+}
+nav.stickyadd .navbar-brand{
+    font-size: 40px;
+    color: #000 !important;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+nav.stickyadd .navbar-nav li a{
+    color: #000 !important;
+    font-size: 22px;
+    letter-spacing: .05rem;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.ul-nav  ul{
+    
+}
+ .hamburger{
+   color: #fff;
+   
+}
+nav.stickyadd .hamburger{
+    color: #000;
+    margin-bottom: 5PX; 
+}
+/* Header Section Styling */
+
+header{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    
+}
+.header-content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+.content-box h4{
+    font-size: 30px;
+    color: #fff;
+   font-weight: 500;
+}
+.content-box h1{
+    font-size: 50px;
+}
+.content-box a{
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-weight: 400;
+   outline: none;
+   transition: .3s ease-in-out;
+}
+.content-box a:hover{
+    background: #fff;
+    color: #000;
+}
+.content-box p{
+    color: #fff !important;
+}
+
+
+/*---About Section----*/
+
+#about{
+    background: #fff;
+    
+}
+.about-sty{
+    padding: 80px 0;
+}
+.content:first-child{
+    font-size: 60px;
+    font-weight: 600
+}
+.content h2 span{
+    color: #fb527a;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+.img-about img{
+    height: 500px!important;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    font-size: 30px;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    transition: .3s ease-in all;
+}
+.social li a:hover{
+    color: #fb527a;
+}
+
+
+/*---Expierience Section----*/
+
+.exp-class{
+    padding: 80px 0;
+    background-color:#f2f2f2;
+    
+}
+.exp-class .progress{
+    font-size: 10px;
+    height: 13px;
+    border-radius: 20px;
+    box-shadow:  2px 3px 3px 3px rgba(0,0,0,0.1) ;
+    margin-bottom: 10px;
+}
+.exp-class .progress .progress-bar{
+    background-color: #fb527a;
+    cursor: pointer;
+    
+}
+.exp-class label{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.left-heading h3{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    position: relative;
+   
+}
+.left-heading h3::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    left: 4px;
+    background-color: #fb527a;
+    top: 60px;
+}
+
+/*-----Service Section-------*/
+.service-class{
+    padding: 70px 0;
+    background-color: #fff;
+}
+.card{
+    padding: 10px 0;
+    margin: 30px 0;
+    transition: .4s ease-in-out all;
+}
+.card,.card-header{
+  background: #f8f9fa!important;
+  cursor: pointer;
+}
+.card-header{
+    border: none!important;
+}
+.service-class .card-header i{
+    font-size: 50px;
+}
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background: #fb527a;
+    transition: .4s all ease-in-out;
+}
+.card:hover .service-border{
+    width: 150px;
+    height: 2px;
+}
+.card:hover{
+    border-top: 6px solid var(--pink);
+    padding-top: 40px;
+    box-shadow: 20px 10px 5px rgba(0,0,0,0.1);
+}
