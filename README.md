@@ -1,2 +1,6 @@
-NAME                    EMAIL                                        PHONE NO.
-SARNALIKA PAUL        sarnalika.paul@msds.christuniversity.in       7278848743
+NAME     Sarnalika Paul
+
+Email     sarnalika.paul@msds.christuniversity.in
+
+phone no.- 7278848743
+
